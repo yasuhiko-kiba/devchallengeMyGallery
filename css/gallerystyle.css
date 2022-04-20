@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.content{
+    width: 1440px;
+    height: 1577px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+.profile{
+    width: 348px;/*536px*/
+    /*height: 317px;*/
+    margin: 60px auto 0;
+}
+
+.profile_photo{
+    width: 156px;
+    height: 156px;
+    margin: 0 96px;
+    background: #C4C4C4;
+    border-radius: 16px;
+}
+
+.profile_name{
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #4E5150;
+}
+
+.profile_locate{
+    margin-top: 8px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+.profile_info{
+    display: flex;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.profile_box{
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+}
+
+.box_center{
+    margin: 0 24px;
+}
+
+.number{
+    margin-top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #4E5150;
+}
+
+.profile_unit{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.gallery{
+    width: 961px;
+    height: 961px;
+    margin: 64px 242px 175px 238px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo{
+    background: #C4C4C4;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+}
+
+.photo1{
+    width: 299px;
+    height: 299px;
+    margin-right: 32px;
+}
+
+.photo2{
+    width: 629px;
+    height: 299px;
+}
+
+.photo3{
+    width: 627px;
+    height: 299px;
+    margin-right: 32px;
+}
+
+.photo4{
+    width: 297px;
+    height: 630px;
+    margin-left: 4px;
+}
+
+.photo5{
+    position: relative;
+    bottom: 331px;
+    width: 299px;
+    height: 299px;
+}
+
+.photo6{
+    position: relative;
+    bottom: 331px;
+    width: 299px;
+    height: 299px;
+    margin-left: 32px;
+}
+
+footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 576px;
+    top: 1536px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    
+    color: #B9BDCF;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.italic{
+    font-style: italic;
+}
